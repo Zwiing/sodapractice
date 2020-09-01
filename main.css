@@ -1,0 +1,54 @@
+body {
+  background: #EDB5BD;
+  color: #FDF06F;
+  font-family: "Roboto";
+}
+
+h3 {
+  color: #EDDBF4;
+  background-color: yellow;
+  text-align: right;
+}
+
+img {
+  width: 100%;
+}
+
+.list {
+  width: 50%;
+  border: 1px solid purple;
+}
+
+.list li {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.list.credits {
+  color: black;
+}
+
+.important {
+  font-weight: bold;
+  color: red;
+}
+
+.debatable {
+  background: blue;
+}
+
+.prestige .col-md {
+  background: blue;
+  color: yellow;
+  border: 2px solid magenta;
+  min-height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: purple;
+  }
+  img {
+    width: 100%;
+  }
+}
